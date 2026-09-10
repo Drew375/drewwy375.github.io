@@ -251,3 +251,35 @@ h1:hover {
     padding: 28px;
   }
 }
+
+/* Project navigation and detail pages */
+html { scroll-behavior: smooth; }
+:root { --muted: #adc0cc; }
+a { color: var(--cyan); }
+a:focus-visible { outline: 3px solid var(--yellow); outline-offset: 5px; }
+.project-card { display: flex; flex-direction: column; text-decoration: none; }
+.project-card .module { color: var(--yellow); }
+.card-image { width: 100%; height: 170px; object-fit: contain; background: #fff; margin: 2px 0 22px; }
+.card-link { color: var(--yellow); margin-top: auto; padding-top: 24px; }
+.project-card .tags { margin-bottom: 20px; }
+.module, .tags span { font-size: .875rem; }
+h1 { line-height: 1.12; overflow-wrap: anywhere; }
+.hero .eyebrow { padding-top: 12px; }
+.back-nav { margin-bottom: 30px; }
+.project-hero h1 { font-size: clamp(2rem, 5.5vw, 4rem); }
+.project-hero .eyebrow { padding-top: 12px; }
+.result { color: var(--yellow); line-height: 1.6; }
+.project-content { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 32px; align-items: start; }
+.detail-section { margin-bottom: 28px; }
+.detail-section h2 { font-family: 'Orbitron', sans-serif; font-size: 1.2rem; line-height: 1.5; color: var(--cyan); }
+.detail-section p, .detail-section li, .related-projects { line-height: 1.8; color: var(--text); }
+.detail-section ul { padding-left: 22px; }
+.detail-section li { margin-bottom: 10px; }
+figure { margin: 0 0 24px; background: var(--panel); border: 1px solid rgba(0,240,255,.5); padding: 12px; }
+figure img { display: block; width: 100%; height: auto; object-fit: contain; background: #fff; }
+figcaption { font-size: .875rem; line-height: 1.5; color: var(--muted); margin-top: 12px; }
+#projects { scroll-margin-top: 24px; }
+@media (min-width: 601px) and (max-width: 850px) { .grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 650px) { .page { padding: 28px 0; } .project-content { grid-template-columns: minmax(0,1fr); } .cyber-panel { padding: 34px 22px; } .cyber-panel::before { font-size: .65rem; top: 10px; } .eyebrow { font-size: .875rem; letter-spacing: 1.5px; } .cyber-button { font-size: .875rem; letter-spacing: 1px; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+
