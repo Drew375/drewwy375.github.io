@@ -1,23 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Engineering Portfolio | Andrew Errington</title><meta name="description" content="Mechatronics engineering portfolio: CAD, electronics, robotics and prototypes."><link rel="stylesheet" href="style.css"></head>
-<body><div class="page"><header class="hero cyber-panel"><p class="eyebrow">SYSTEM ONLINE // ENGINEERING ARCHIVE</p><h1>Andrew Errington</h1><p class="subtitle">Mechatronics engineering portfolio, project logs, experiments, CAD, electronics and prototypes.</p><div class="button-row"><a href="#projects" class="cyber-button">View Projects</a><a href="Andrew_Errington_Resume.pdf" download class="cyber-button secondary">Download Resume</a></div></header><main id="projects" aria-label="Engineering projects" class="grid"><a class="project-card" href="lunar-dust.html" aria-label="View Lunar Dust Detection System"><p class="module">PROJECT MODULE 01</p><img class="card-image" src="assets/lunar-dust-1.png" alt="Lunar Dust Detection System project image" loading="lazy"><h2>Lunar Dust Detection System</h2><p>An ESP32-based lunar dust detector combining sensor electronics, custom PCBs, mechanical enclosures and a web interface.</p><div class="tags"><span>ESP32</span><span>KiCad</span><span>CAD</span><span>Sensor integration</span></div><span class="card-link">View project →</span></a>
-<!-- EDIT: Internship card summary and skills below. -->
-<a class="project-card" href="internships.html" aria-label="View Internships - Systems and Safety">
-  <p class="module">PROJECT MODULE 02</p>
-  <img class="card-image" src="assets/IMG_20260930_160226053.jpg" alt="Internship photograph 1" loading="lazy">
-  <h2>Internships - Systems and Safety</h2>
-  <p>Worked with Defence within the Land 19 7B Systems engineering team for 1 year, then worked 3 months as a Systems and Safety Engineering intern at AMOG Consulting</p>
-  <div class="tags"><span>Systems</span><span>Safety</span></div>
-  <span class="card-link">View experience →</span>
-</a>
-<a class="project-card" href="hand-eye.html" aria-label="View Hand-Eye Coordination"><p class="module">PROJECT MODULE 03</p><img class="card-image" src="assets/hand-eye-1.jpeg" alt="Hand-Eye Coordination project image" loading="lazy"><h2>Hand-Eye Coordination</h2><p>Machine vision and robot I/O integration for a hand-eye coordination task.</p><div class="tags"><span>C++</span><span>Machine vision</span><span>Scorbase</span></div><span class="card-link">View project →</span></a>
-<a class="project-card" href="robot-cell.html" aria-label="View Robot Cell Assembly"><p class="module">PROJECT MODULE 04</p><img class="card-image" src="assets/robot-cell-1.jpeg" alt="Robot Cell Assembly project image" loading="lazy"><h2>Robot Cell Assembly</h2><p>A robot cell assembly with two original feeder designs and cycle-time verification.</p><div class="tags"><span>CAD assembly</span><span>Automation</span><span>Cycle time</span></div><span class="card-link">View project →</span></a>
-<a class="project-card" href="pick-and-place.html" aria-label="View Pick and Place Mechatronics System"><p class="module">PROJECT MODULE 05</p><img class="card-image" src="assets/pick-and-place-1.jpeg" alt="Pick and Place Mechatronics System project image" loading="lazy"><h2>Pick and Place Mechatronics System</h2><p>A SolidWorks-designed mechatronic system manufactured using my own 3D printer.</p><div class="tags"><span>SolidWorks</span><span>3D printing</span><span>PLA</span></div><span class="card-link">View project →</span></a>
-<a class="project-card" href="gearbox.html" aria-label="View Gearbox Project"><p class="module">PROJECT MODULE 06</p><img class="card-image" src="assets/gearbox-1.jpeg" alt="Gearbox Project project image" loading="lazy"><h2>Gearbox Project</h2><p>A modelled, analysed and assembled acrylic gearbox that passed its demonstration.</p><div class="tags"><span>CAD</span><span>FEA</span><span>Laser cutting</span></div><span class="card-link">View project →</span></a>
-<a class="project-card" href="cpap-mask.html" aria-label="View CPAP Mask in Creo"><p class="module">PROJECT MODULE 07</p><img class="card-image" src="assets/cpap-mask-1.jpeg" alt="CPAP Mask in Creo project image" loading="lazy"><h2>CPAP Mask in Creo</h2><p>CPAP mask design with mould tooling, manufacturing simulation and engineering drawings.</p><div class="tags"><span>Creo</span><span>Mould design</span><span>NC simulation</span></div><span class="card-link">View project →</span></a>
-<a class="project-card" href="arduino.html" aria-label="View Arduino Portfolio and Project"><p class="module">PROJECT MODULE 08</p><img class="card-image" src="assets/arduino-1.jpeg" alt="Arduino Portfolio and Project project image" loading="lazy"><h2>Arduino Portfolio and Project</h2><p>Embedded electronics coursework and a group project using a range of inputs, outputs and storage devices.</p><div class="tags"><span>Arduino</span><span>EEPROM</span><span>SD cards</span><span>Sensors</span></div><span class="card-link">View project →</span></a>
-<a class="project-card" href="electric-scooter.html" aria-label="View Electric Scooter Project"><p class="module">PROJECT MODULE 09</p><img class="card-image" src="assets/electric-scooter-1.jpeg" alt="Electric Scooter Project project image" loading="lazy"><h2>Electric Scooter Project</h2><p>Collaborative scooter design with part models, assembly work, animations and analysis.</p><div class="tags"><span>CAD</span><span>FEA</span><span>Engineering drawings</span></div><span class="card-link">View project →</span></a>
-<a class="project-card" href="cad-3d-printing.html" aria-label="View CAD &amp; 3D Printing"><p class="module">PROJECT MODULE 10</p><img class="card-image" src="assets/pick-and-place-1.jpeg" alt="Pick and Place Mechatronics System project image" loading="lazy"><h2>CAD &amp; 3D Printing</h2><p>Mechanical design work spanning printed mechanisms, enclosures and manufactured parts.</p><div class="tags"><span>SolidWorks</span><span>Creo</span><span>3D printing</span></div><span class="card-link">View project →</span></a>
-<a class="project-card" href="control-systems.html" aria-label="View Control Systems"><p class="module">PROJECT MODULE 11</p><h2>Control Systems</h2><p>Coursework involving root locus, transfer functions, PID and magnetic levitation.</p><div class="tags"><span>PID</span><span>MATLAB</span><span>Root locus</span></div><span class="card-link">View project →</span></a>
-</main></div></body></html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Engineering Portfolio | Andrew Errington
+    </title>
+    <meta name="description" content="Mechatronics engineering portfolio: CAD, electronics, robotics and prototypes.">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero cyber-panel">
+        <p class="eyebrow">
+          SYSTEM ONLINE // ENGINEERING ARCHIVE
+        </p>
+        <h1>
+          Andrew Errington
+        </h1>
+        <p class="subtitle">
+          Mechatronics engineering portfolio, project logs, experiments, CAD, electronics and prototypes.
+        </p>
+        <div class="button-row">
+          <a href="#projects" class="cyber-button">
+            View Projects
+          </a>
+          <a href="Andrew_Errington_Resume.pdf" download class="cyber-button secondary">
+            Download Resume
+          </a>
+        </div>
+      </header>
+      <main id="projects" aria-label="Engineering projects" class="grid">
+        <a class="project-card" href="lunar-dust.html" aria-label="View Lunar Dust Detection System">
+          <p class="module">
+            PROJECT MODULE 01
+          </p>
+          <img class="card-image" src="assets/honoursCROP.jpg" alt="Lunar Dust Detection System project image" loading="lazy">
+          <h2>
+            Lunar Dust Detection System
+          </h2>
+          <p>
+            An ESP32-based lunar dust detector combining sensor electronics, custom PCBs, mechanical enclosures and a web interface.
+          </p>
+          <div class="tags">
+            <span>
+              ESP32
+            </span>
+            <span>
+              KiCad
+            </span>
+            <span>
+              CAD
+            </span>
+            <span>
+              Sensor integration
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <!-- EDIT: Internship card summary and skills below. -->
+        <a class="project-card" href="internships.html" aria-label="View Internships - Systems and Safety">
+          <p class="module">
+            PROJECT MODULE 02
+          </p>
+          <img class="card-image" src="assets/IMG_20260930_160226053.jpg" alt="Internship photograph 1" loading="lazy">
+          <h2>
+            Internships - Systems and Safety
+          </h2>
+          <p>
+            Worked with Defence within the Land 19 7B Systems engineering team for 1 year, then worked 3 months as a Systems and Safety Engineering intern at AMOG Consulting
+          </p>
+          <div class="tags">
+            <span>
+              Systems
+            </span>
+            <span>
+              Safety
+            </span>
+          </div>
+          <span class="card-link">
+            View experience →
+          </span>
+        </a>
+        <a class="project-card" href="hand-eye.html" aria-label="View Hand-Eye Coordination">
+          <p class="module">
+            PROJECT MODULE 03
+          </p>
+          <img class="card-image" src="assets/hand-eye-1.jpeg" alt="Hand-Eye Coordination project image" loading="lazy">
+          <h2>
+            Hand-Eye Coordination
+          </h2>
+          <p>
+            Machine vision and robot I/O integration for a hand-eye coordination task.
+          </p>
+          <div class="tags">
+            <span>
+              C++
+            </span>
+            <span>
+              Machine vision
+            </span>
+            <span>
+              Scorbase
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <a class="project-card" href="robot-cell.html" aria-label="View Robot Cell Assembly">
+          <p class="module">
+            PROJECT MODULE 04
+          </p>
+          <img class="card-image" src="assets/robot-cell-1.jpeg" alt="Robot Cell Assembly project image" loading="lazy">
+          <h2>
+            Robot Cell Assembly
+          </h2>
+          <p>
+            A robot cell assembly with two original feeder designs and cycle-time verification.
+          </p>
+          <div class="tags">
+            <span>
+              CAD assembly
+            </span>
+            <span>
+              Automation
+            </span>
+            <span>
+              Cycle time
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <a class="project-card" href="pick-and-place.html" aria-label="View Pick and Place Mechatronics System">
+          <p class="module">
+            PROJECT MODULE 05
+          </p>
+          <img class="card-image" src="assets/pick-and-place-1.jpeg" alt="Pick and Place Mechatronics System project image" loading="lazy">
+          <h2>
+            Pick and Place Mechatronics System
+          </h2>
+          <p>
+            A SolidWorks-designed mechatronic system manufactured using my own 3D printer.
+          </p>
+          <div class="tags">
+            <span>
+              SolidWorks
+            </span>
+            <span>
+              3D printing
+            </span>
+            <span>
+              PLA
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <a class="project-card" href="gearbox.html" aria-label="View Gearbox Project">
+          <p class="module">
+            PROJECT MODULE 06
+          </p>
+          <img class="card-image" src="assets/gearbox-1.jpeg" alt="Gearbox Project project image" loading="lazy">
+          <h2>
+            Gearbox Project
+          </h2>
+          <p>
+            A modelled, analysed and assembled acrylic gearbox that passed its demonstration.
+          </p>
+          <div class="tags">
+            <span>
+              CAD
+            </span>
+            <span>
+              FEA
+            </span>
+            <span>
+              Laser cutting
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <a class="project-card" href="cpap-mask.html" aria-label="View CPAP Mask in Creo">
+          <p class="module">
+            PROJECT MODULE 07
+          </p>
+          <img class="card-image" src="assets/cpap-mask-1.jpeg" alt="CPAP Mask in Creo project image" loading="lazy">
+          <h2>
+            CPAP Mask in Creo
+          </h2>
+          <p>
+            CPAP mask design with mould tooling, manufacturing simulation and engineering drawings.
+          </p>
+          <div class="tags">
+            <span>
+              Creo
+            </span>
+            <span>
+              Mould design
+            </span>
+            <span>
+              NC simulation
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <a class="project-card" href="arduino.html" aria-label="View Arduino Portfolio and Project">
+          <p class="module">
+            PROJECT MODULE 08
+          </p>
+          <img class="card-image" src="assets/arduino-1.jpeg" alt="Arduino Portfolio and Project project image" loading="lazy">
+          <h2>
+            Arduino Portfolio and Project
+          </h2>
+          <p>
+            Embedded electronics coursework and a group project using a range of inputs, outputs and storage devices.
+          </p>
+          <div class="tags">
+            <span>
+              Arduino
+            </span>
+            <span>
+              EEPROM
+            </span>
+            <span>
+              SD cards
+            </span>
+            <span>
+              Sensors
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <a class="project-card" href="electric-scooter.html" aria-label="View Electric Scooter Project">
+          <p class="module">
+            PROJECT MODULE 09
+          </p>
+          <img class="card-image" src="assets/electric-scooter-1.jpeg" alt="Electric Scooter Project project image" loading="lazy">
+          <h2>
+            Electric Scooter Project
+          </h2>
+          <p>
+            Collaborative scooter design with part models, assembly work, animations and analysis.
+          </p>
+          <div class="tags">
+            <span>
+              CAD
+            </span>
+            <span>
+              FEA
+            </span>
+            <span>
+              Engineering drawings
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <a class="project-card" href="cad-3d-printing.html" aria-label="View CAD &amp; 3D Printing">
+          <p class="module">
+            PROJECT MODULE 10
+          </p>
+          <img class="card-image" src="assets/pick-and-place-1.jpeg" alt="Pick and Place Mechatronics System project image" loading="lazy">
+          <h2>
+            CAD
+            &amp;
+            3D Printing
+          </h2>
+          <p>
+            Mechanical design work spanning printed mechanisms, enclosures and manufactured parts.
+          </p>
+          <div class="tags">
+            <span>
+              SolidWorks
+            </span>
+            <span>
+              Creo
+            </span>
+            <span>
+              3D printing
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+        <a class="project-card" href="control-systems.html" aria-label="View Control Systems">
+          <p class="module">
+            PROJECT MODULE 11
+          </p>
+          <h2>
+            Control Systems
+          </h2>
+          <p>
+            Coursework involving root locus, transfer functions, PID and magnetic levitation.
+          </p>
+          <div class="tags">
+            <span>
+              PID
+            </span>
+            <span>
+              MATLAB
+            </span>
+            <span>
+              Root locus
+            </span>
+          </div>
+          <span class="card-link">
+            View project →
+          </span>
+        </a>
+      </main>
+    </div>
+  </body>
+</html>
