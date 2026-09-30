@@ -283,3 +283,6 @@ figcaption { font-size: .875rem; line-height: 1.5; color: var(--muted); margin-t
 @media (max-width: 650px) { .page { padding: 28px 0; } .project-content { grid-template-columns: minmax(0,1fr); } .cyber-panel { padding: 34px 22px; } .cyber-panel::before { font-size: .65rem; top: 10px; } .eyebrow { font-size: .875rem; letter-spacing: 1.5px; } .cyber-button { font-size: .875rem; letter-spacing: 1px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
 
+
+/* Keep small source images at their native size to avoid enlargement blur. */
+figure img { width: auto; max-width: 100%; height: auto; margin-inline: auto; }
